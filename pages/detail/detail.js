@@ -41,7 +41,7 @@ Page({
       success: function (res) {
         console.log(res.windowHeight)
         _this.setData({
-          scrollHeight: res.windowHeight,
+          scrollHeight: res.windowHeight+240,
           userId: store.getItem('userId'),
         });
       }
@@ -236,7 +236,7 @@ Page({
         } else {
           // 当前页为其他页
           var list = that.data.list;
-          if (res.data.length != 0) {
+          if (res.data.content != null) {
             list = that.addArr(list, res.data.content);
             that.setData({
               list: list

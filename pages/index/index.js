@@ -78,7 +78,7 @@ Page({
   },
   onShareAppMessage() {
     return {
-      title: 'scroll-view',
+      title: '电影小程序',
       path: 'pages/index/index'
     }
   },

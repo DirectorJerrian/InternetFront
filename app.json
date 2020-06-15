@@ -6,6 +6,7 @@
     "pages/comments/comments",
     "pages/history/history"
   ],
+
   "window": {
     "backgroundTextStyle": "dark",
     "navigationBarBackgroundColor": "#fff",

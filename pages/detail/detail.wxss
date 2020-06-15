@@ -1,4 +1,5 @@
 /**detail.wxss**/
+
 .container {
   height: 100%;
   display: flex;
@@ -68,8 +69,8 @@
 .release textarea {
   width: 500rpx;
   min-height: 34rpx;
-  max-height: 102rpx;
-  /*最多显示三行*/
+  max-height: 204rpx;
+  /*最多显示六行*/
   border-width: 15rpx 20rpx;
   /*使用padding与预期留白不一致，故使用border*/
   border-style: solid;

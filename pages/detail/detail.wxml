@@ -1,5 +1,5 @@
 <!--detail.wxml-->
-<scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:100%;" class="list" bindscrolltolower="bindDownLoad" bindscrolltoupper="refresh">
+<scroll-view scroll-top="{{scrollTop}}" scroll-y="true" style="height:{{scrollHeight}}px;" class="list" bindscrolltolower="bindDownLoad" bindscrolltoupper="refresh">
   <view class="container">
     <view class="goBack">
       <image style='width: 345rpx; height: 495rpx' mode='scaleToFill' src='{{movie.imgUrl}}'></image>
